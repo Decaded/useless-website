@@ -1,0 +1,39 @@
+<!-- basic html website with black background, music and time counter in javascript -->
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Nya Nya</title>
+	</head>
+	<body class="rainbow">
+		<div class="container">
+			<div class="content">
+				<!-- start button -->
+				<button class="start-button" onclick="start()">
+					<span class="play">click to start</span>
+				</button>
+				<!-- clock -->
+				<div class="clock-text">
+					<p>You wasted <span id="time">0</span> seconds of your life</p>
+				</div>
+				<!-- spinning Tomoko -->
+				<div class="tomoko">
+					<img src="images/tomoko-spinning.gif" alt="tomoko" />
+				</div>
+			</div>
+			<div class="footer">
+				<p>&copy; <a href="https://decaded.ga" target="_blank">Decaded </a></p>
+			</div>
+		</div>
+		<!-- load timer -->
+		<script src="js/magic.js"></script>
+
+		<!-- automatically update date in footer -->
+		<script>
+			var d = new Date();
+			document.querySelector(".footer p").innerHTML += d.getFullYear();
+		</script>
+	</body>
+	<link rel="stylesheet" href="css/style.css" />
+</html>
