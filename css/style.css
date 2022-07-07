@@ -1,6 +1,7 @@
-body, html {
-  margin: 0;
-  padding: 0;
+body,
+html {
+	margin: 0;
+	padding: 0;
 }
 
 .container {
@@ -50,18 +51,17 @@ body, html {
 }
 
 .tomoko {
-  width: 100%;
-  height: 100%;
-  display: none;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  
+	width: 100%;
+	height: 100%;
+	display: none;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .tomoko img {
-  width: auto;
-  height: auto;
+	width: auto;
+	height: auto;
 }
 
 .footer {
@@ -75,99 +75,99 @@ body, html {
 }
 
 .footer a {
-  color: white;
-  text-decoration: none;
+	color: white;
+	text-decoration: none;
 }
 
 /* #time element rainbow text animation */
 #time {
-  animation: rainbow-text 6s ease infinite;
+	animation: rainbow-text 6s ease infinite;
 }
 
 @keyframes rainbow-text {
-  0% {
-    color: #f00;
-  }
-  16.6% {
-    color: #ff0;
-  }
-  33.2% {
-    color: #0f0;
-  }
-  49.8% {
-    color: #0ff;
-  }
-  66.4% {
-    color: #00f;
-  }
-  83.0% {
-    color: #f0f;
-  }
-  99.6% {
-    color: #f00;
-  }
+	0% {
+		color: #f00;
+	}
+	16.6% {
+		color: #ff0;
+	}
+	33.2% {
+		color: #0f0;
+	}
+	49.8% {
+		color: #0ff;
+	}
+	66.4% {
+		color: #00f;
+	}
+	83.0% {
+		color: #f0f;
+	}
+	100% {
+		color: #f00;
+	}
 }
 
 /* body color pulse animation */
 @keyframes pulse-body {
-  0% {
-    background-color: #f00;
-  }
-  16.6% {
-    background-color: #ff0;
-  }
-  33.2% {
-    background-color: #0f0;
-  }
-  49.8% {
-    background-color: #0ff;
-  }
-  66.4% {
-    background-color: #00f;
-  }
-  83.0% {
-    background-color: #f0f;
-  }
-  99.6% {
-    background-color: #f00;
-  }
+	0% {
+		background-color: #f00;
+	}
+	16.6% {
+		background-color: #ff0;
+	}
+	33.2% {
+		background-color: #0f0;
+	}
+	49.8% {
+		background-color: #0ff;
+	}
+	66.4% {
+		background-color: #00f;
+	}
+	83.0% {
+		background-color: #f0f;
+	}
+	100% {
+		background-color: #f00;
+	}
 }
 
 /* animated start button with random text */
 .start-button {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: black;
-  color: white;
-  font-size: 4rem;
-  font-weight: bold;
-  animation: start-button 6s ease infinite;
-  cursor: hand;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: black;
+	color: white;
+	font-size: 4rem;
+	font-weight: bold;
+	animation: start-button 6s ease infinite;
+	cursor: hand;
 }
 
 @keyframes start-button {
-  0% {
-    color: #f00;
-  }
-  16.6% {
-    color: #ff0;
-  }
-  33.2% {
-    color: #0f0;
-  }
-  49.8% {
-    color: #0ff;
-  }
-  66.4% {
-    color: #00f;
-  }
-  83.0% {
-    color: #f0f;
-  }
-  99.6% {
-    color: #f00;
-  }
+	0% {
+		color: #f00;
+	}
+	16.6% {
+		color: #ff0;
+	}
+	33.2% {
+		color: #0f0;
+	}
+	49.8% {
+		color: #0ff;
+	}
+	66.4% {
+		color: #00f;
+	}
+	83.0% {
+		color: #f0f;
+	}
+	100% {
+		color: #f00;
+	}
 }
