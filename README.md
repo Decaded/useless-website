@@ -1,2 +1,2 @@
-# useless-website
+# useless website
 it's useless
