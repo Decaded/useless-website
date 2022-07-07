@@ -2,6 +2,8 @@
 var audio = new Audio("music/spin.mp3");
 function start() {
 	audio.play();
+	// loop the audio
+	audio.loop = true;
 
 	// count time spend on site and display it in "time" paragraph after the button is pressed
 	const time = document.querySelector("#time");
@@ -16,9 +18,11 @@ function start() {
 	const clockText = document.querySelector(".clock-text");
 	const siteBackground = document.querySelector("body");
 	const tomoko = document.querySelector(".tomoko");
+	const footer = document.querySelector(".footer");
 	startButton.style.display = "none";
 	clockText.style.display = "flex";
 	tomoko.style.display = "flex";
 	siteBackground.style.animation = "pulse-body 5s ease infinite";
 	siteBackground.style.margin = "1rem";
+	footer.style.display = "flex";
 }
